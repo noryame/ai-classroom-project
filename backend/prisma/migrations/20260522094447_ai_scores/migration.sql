@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "Attendance" ADD COLUMN     "distractionScore" INTEGER NOT NULL DEFAULT 0,
+ADD COLUMN     "focusScore" INTEGER NOT NULL DEFAULT 0,
+ADD COLUMN     "talkingScore" INTEGER NOT NULL DEFAULT 0;
